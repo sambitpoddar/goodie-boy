@@ -3,15 +3,23 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",     
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Real-time tracker app with Node.js, Express, Socket.io, and EJS",
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.21.2",
     "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"         
+  },
+  "engines": {
+    "node": "14.x"               
   }
 }
